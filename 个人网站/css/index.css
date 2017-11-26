@@ -299,3 +299,20 @@ img{
     bottom: 10px;
     display:none;
 }
+.wrap{
+    width: 90%;
+    background: olivedrab ;
+    height: 500px;
+    float: left;
+}
+.left-button,.right-button{
+    width: 5%;
+    background: hotpink;
+    height: 500px;
+}
+.left-button{
+    float: left;
+}
+.right-button{
+    float: left;
+}
