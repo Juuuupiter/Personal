@@ -92,15 +92,17 @@ $("#call-me").on("click",function () {
             }
         }
     };
-    window.onload = function () {
-        var msg = "Hey,<br>Welcome to my world!<br>This is my website.<br>这是一颗星球叫M902 ♥";
+        window.onload = function () {
+            var msg = "Hey,<br>Welcome to my world!<br>This is my website.<br>这是一颗星球叫M902 ♥";
 
-        function getMsg() {
-            return msg;
-        }
-        typeWriter.msg = getMsg(msg);
-        typeWriter.type();
-    };
+            function getMsg() {
+                return msg;
+            }
+
+            typeWriter.msg = getMsg(msg);
+            typeWriter.type();
+        };
+
 
 //弹出层
 
@@ -271,5 +273,12 @@ fn4;
 var fn5 = new circle(86,document.getElementById('five'));
 fn5;
 
+//二维码弹出
+$("#wechat").on("mouseover",function() {
+     $("#chat-pic").show('fast')
+});
+$("#wechat").on("mouseleave",function() {
+    $("#chat-pic").hide('fast')
+});
 
 

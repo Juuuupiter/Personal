@@ -305,6 +305,10 @@ img{
     height: 500px;
     float: left;
 }
+.wrap img{
+    width: 60%;
+    height: 200px;
+}
 .left-button,.right-button{
     width: 5%;
     background: hotpink;
@@ -315,4 +319,23 @@ img{
 }
 .right-button{
     float: left;
+}
+#find-me{
+    margin-top: 20px;
+    width: 40%;
+    height: 560px;
+    float: right;
+    /*background: blue;*/
+    text-align: left;
+}
+#find-me p{
+    text-align: center;
+    font-size: 30px;
+}
+#find-me span{
+    font-size: 20px;
+}
+#find-me img{
+    width:50%;
+    display: none;
 }
