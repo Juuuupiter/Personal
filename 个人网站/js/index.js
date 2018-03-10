@@ -32,41 +32,6 @@ $("#call-me").on("click",function () {
 
 
 //模拟打字
-//         $("#letter-up")
-//         .typetype(
-//             'Hey,',
-//             {
-//               e:0,
-//               t:100
-//             })
-//
-//          $("#letter-middle ")
-//              .delay(1000)
-//              .typetype('Welcome to my world!',
-//             {
-//                 e:0,
-//                 t:100
-//             });
-//
-//          $("#letter-down")
-//              .delay(4000)
-//              .typetype("This is my website.",
-//             {
-//                 e:0,
-//                 t:100
-//             })
-//         .backspace(60)
-//          $("#letter-middle ")
-//              .delay(5000)
-//              .backspace(60);
-//
-//          $("#letter-down")
-//              .delay(500)
-//               .typetype('这是一颗星球叫M902 ♥',
-//             {
-//                 e:0,
-//                 t:100
-//             });
 
     var typeWriter = {
         msg: function (msg) {
@@ -92,6 +57,7 @@ $("#call-me").on("click",function () {
             }
         }
     };
+// $("#cover-open").on("click",function () {
         window.onload = function () {
             var msg = "Hey,<br>Welcome to my world!<br>This is my website.<br>这是一颗星球叫M902 ♥";
 
@@ -102,7 +68,7 @@ $("#call-me").on("click",function () {
             typeWriter.msg = getMsg(msg);
             typeWriter.type();
         };
-
+// })
 
 //弹出层
 
@@ -280,5 +246,22 @@ $("#wechat").on("mouseover",function() {
 $("#wechat").on("mouseleave",function() {
     $("#chat-pic").hide('fast')
 });
+
+//选项卡
+$(document).ready(function(){
+    $(".tag").mouseover(function(){
+        //设置当前li的背景颜色和边框
+        $(this).css("background-color","#777").css("border","1px solid #777");
+        //设置其他li的背景颜色和边框
+        $(".tag").not(this).css("background-color","#aaa").css("border","1px solid white");
+        //获得当前li的索引值
+        var index = $('.tag').index(this);
+        //隐藏所有的div
+        $(".tag-div").hide();
+        //显示对应的div
+        $(".tag-div").eq(index).show();
+    });
+});
+
 
 
