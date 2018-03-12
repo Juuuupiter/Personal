@@ -10,7 +10,7 @@ open.onclick = function () {
     open.style.display ="none";
     cover.style.display = "none";
     body.style.display = "block";
-
+    typeWriter.type();
 };
 
 //导航
@@ -42,7 +42,7 @@ $("#call-me").on("click",function () {
         },
         seq: 0,
         speed: 150,//打字时间(ms)
-        type: function () {
+        type: function (){
             var _this = this;
             document.getElementById("text").innerHTML = _this.msg.substring(0, _this.seq);
             if (_this.seq == _this.len()) {
@@ -57,18 +57,14 @@ $("#call-me").on("click",function () {
             }
         }
     };
-// $("#cover-open").on("click",function () {
         window.onload = function () {
             var msg = "Hey,<br>Welcome to my world!<br>This is my website.<br>这是一颗星球叫M902 ♥";
-
             function getMsg() {
                 return msg;
             }
-
             typeWriter.msg = getMsg(msg);
-            typeWriter.type();
+            // typeWriter.type();
         };
-// })
 
 //弹出层
 
