@@ -24,7 +24,7 @@ $("#dd").on("click",function () {
     $("html,body").animate({scrollTop:$("#my-project").offset().top},100);
 });
 $("#ee").on("click",function () {
-    $("html,body").animate({scrollTop:$("#contact").offset().top},100);
+    $("html,body").animate({scrollTop:$("#contact").offset().top-100},1000);
 });
 $("#call-me").on("click",function () {
     $("html,body").animate({scrollTop:$("#contact").offset().top},100);
