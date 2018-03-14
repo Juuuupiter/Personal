@@ -309,9 +309,13 @@ img{
     width: 100%;
     height: 288px;
     float: left;
+    border-radius: 50%;
 }
 .tab_menu {
     clear:both;
+}
+.tab_menu ul{
+    margin: 0 40%;
 }
 .tab_menu li {
     float:left;
@@ -319,14 +323,15 @@ img{
     cursor:pointer;
     list-style:none;
     padding:1px 6px;
-    margin-right:5px;
-    background:#F1F1F1;
-    border:1px solid #898989;
+    margin-right:30px;
+    /*background:url("../img/jpeg/jiantou.jpg");*/
+    /*background-size: contain;*/
+    /*border:1px solid #898989;*/
     border-bottom:none;
     font-size: 25px;
 }
 .tab_menu li.hover {
-    background:#DFDFDF;
+    background:lightblue ;
 }
 .tab_menu li.selected {
     color:#FFF;
