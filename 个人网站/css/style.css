@@ -117,7 +117,13 @@ canvas {
     height: 500px;
 
 }
-
+#cloudy{
+    width: 100%;
+    height: 280px;
+    background: url("../img/jpeg/cloudy.png") no-repeat center center;
+    position: absolute;
+    margin-top: 730px;
+}
 
 
 

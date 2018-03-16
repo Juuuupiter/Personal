@@ -136,7 +136,7 @@
     width: 100%;
     height: 750px;
     position: relative;
-    /*background: url("../img/jpeg/IMG_2252.jpg") ;*/
+    background: url("../img/jpeg/IMG_2252.jpg") ;
     background-size: cover ;
 }
 #what-to-do .todo{
@@ -154,7 +154,7 @@
     color: rgba(93,115,154,1);
 }
 .todo:nth-child(2n){
-    background:url("../img/jpeg/555.jpg");
+    /*background:url("../img/jpeg/555.jpg");*/
     background-size: cover;
 }
 .triangle-down {
@@ -209,7 +209,7 @@
 }
 #my-project {
     width: 100%;
-    height: 650px;
+    height: 550px;
     /*background: url("../img/jpeg/555.jpg");*/
 }
 
@@ -301,14 +301,14 @@ img{
     height: 50px;
 }
 .project-pic{
-    height: 305px;
+    height: 250px;
     float: left;
-    width: 25%;
+    width: 20%;
     margin-left: 6%;
 }
 .wrap img{
     width: 100%;
-    height: 288px;
+    height: 230px;
     float: left;
     border-radius: 50%;
 }
@@ -316,7 +316,7 @@ img{
     clear:both;
 }
 .tab_menu ul{
-    margin: 0 40%;
+    margin: 0 35%;
 }
 .tab_menu li {
     float:left;
@@ -338,7 +338,7 @@ img{
 .tab_box {
     clear:both;
     border:1px solid #898989;
-    height:610px;
+    height:510px;
     width:80%;
     margin: auto;
 }
@@ -366,4 +366,16 @@ img{
     width:50%;
     height: 350px;
     display: none;
+}
+#i-like{
+    width: 50%;
+    float: left;
+    background: salmon;
+}
+#border-img{
+    width:10%;
+    background:url("../img/jpeg/zhubiankuang.png") ;
+    background-size: contain;
+    float: left;
+    height: 600px;
 }
