@@ -134,27 +134,25 @@
 
 #what-to-do {
     width: 100%;
-    height: 750px;
+    height: 721px;
     position: relative;
     /*background: url("../img/jpeg/IMG_2252.jpg") ;*/
     /*background-size: cover ;*/
 }
 #what-to-do .todo{
-    /*margin-top: 20px;*/
     width: 20%;
     height: 350px;
-    /*background: darkcyan ;*/
     float: left;
 }
 #what-to-do .todo canvas {
     margin: 0 auto;
 }
 #what-to-do .todo p{
-    font-size: 25px;
+    font-size: 20px;
     color: rgba(93,115,154,1);
 }
 .todo:nth-child(2n){
-    /*background:url("../img/jpeg/555.jpg");*/
+    background:url("../img/jpeg/d3cc81057bb6fec448bf5ef6b91943474d50a16f7006c-Yyqnyk_fw658.jpg");
     background-size: cover;
 }
 .triangle-down {
@@ -378,5 +376,6 @@ img{
     background:url("../img/jpeg/zhubiankuang.png") ;
     background-size: contain;
     float: left;
-    height: 600px;
+    height: 450px;
+    margin-top: 50px;
 }

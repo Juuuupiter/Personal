@@ -220,7 +220,7 @@ function circle(percent,c){
 }
 
 
-var fn1 = new circle(96,document.getElementById('one'));
+var fn1 = new circle(94,document.getElementById('one'));
 fn1;
 
 var fn2 = new circle(88,document.getElementById('two'));
@@ -229,10 +229,10 @@ fn2;
 var fn3 = new circle(72,document.getElementById('three'));
 fn3;
 
-var fn4 = new circle(90,document.getElementById('four'));
+var fn4 = new circle(86,document.getElementById('four'));
 fn4;
 
-var fn5 = new circle(86,document.getElementById('five'));
+var fn5 = new circle(82,document.getElementById('five'));
 fn5;
 
 //二维码弹出
