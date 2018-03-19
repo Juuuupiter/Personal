@@ -15,19 +15,19 @@ open.onclick = function () {
 
 //导航
 $("#bb").on("click",function () {
-    $("html,body").animate({scrollTop:$("#cloud").offset().top},100);
+    $("html,body").animate({scrollTop:$("#cloud").offset().top},1000);
 });
 $("#cc").on("click",function () {
-    $("html,body").animate({scrollTop:$("#what-to-do").offset().top},100);
+    $("html,body").animate({scrollTop:$("#what-to-do").offset().top},1000);
 });
 $("#dd").on("click",function () {
-    $("html,body").animate({scrollTop:$("#my-project").offset().top},100);
+    $("html,body").animate({scrollTop:$("#my-project").offset().top},1000);
 });
 $("#ee").on("click",function () {
-    $("html,body").animate({scrollTop:$("#contact").offset().top-100},1000);
+    $("html,body").animate({scrollTop:$("#contact").offset().top},1000);
 });
 $("#call-me").on("click",function () {
-    $("html,body").animate({scrollTop:$("#contact").offset().top},100);
+    $("html,body").animate({scrollTop:$("#contact").offset().top},1000);
 });
 
 

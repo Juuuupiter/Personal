@@ -1,3 +1,22 @@
+
+@media (max-width: 1450px) {
+    /*#about-left{*/
+        /*width: 50%;*/
+    /*}*/
+    #imgs {
+        width: 90%;
+        margin: auto ;
+    }
+    /*#about-right {*/
+        /*width: 50%;*/
+    /*}*/
+    .tab_menu ul{
+        width: 35%;
+    }
+}
+@media (max-width: 1392px) {
+
+}
 @media (max-width:1360px)  {
     #text {
         font-size: 30px;
@@ -8,22 +27,22 @@
     button{
         margin-top: 90px;
     }
-}
-@media (max-width: 1450px) {
-    #about-left{
-        width: 50%;
-    }
-    #imgs {
-        width: 90%;
-        margin: auto ;
-    }
-    #about-right {
-        width: 50%;
+    .tab_menu ul{
+        width:35%;
     }
 }
 @media (max-width: 1265px ) {
     #nav-left li{
         margin-left: 5%;
+    }
+    .todo{
+        height: 300px;
+    }
+    #what-to-do{
+        height: 620px;
+    }
+    .tab_menu ul{
+        width:40%;
     }
 }
 @media (max-width: 1110px) {
@@ -43,7 +62,10 @@
     #about-right {
         width: 50%;
     }
-
+    .tab_menu ul{
+        width:45%;
+        margin: 0 35%;
+    }
 }
 @media (max-width: 1000px) {
     #nav-left ul{
@@ -52,7 +74,12 @@
     #nav-left li{
         font-size: 15px;
     }
+    .tab_menu ul{
+        width:50%;
+        margin: 0 33%;
+    }
 }
+
 @media (max-width: 925px ) {
     #text {
         display: none;
@@ -69,7 +96,20 @@
         display: none;
     }
     #about-left {
-        width:60%
+        width:70%;
+        margin: 0 15%;
+    }
+    .tab_menu li{
+        font-size: 20px;
+    }
+}
+@media (max-width: 770px){
+    #about-me{
+        height:550px ;
+    }
+    .tab_menu ul{
+        width:55%;
+        margin: 0 28%;
     }
 }
 @media (max-width: 700px) {
@@ -89,5 +129,60 @@
         width: 23%;
         height: 30px;
         margin-top: 13px;
+    }
+    #about-left{
+        height: 350px;
+    }
+    #container{
+        height: 350px;
+    }
+    #about-left img{
+        height: 350px;
+    }
+    #list-nav{
+        left: 30%;
+    }
+    .tab_menu ul{
+        width:60%;
+        margin: 0 23%;
+    }
+}
+@media (max-width: 670px) {
+    /*#about-me {*/
+        /*height: 200px;*/
+    /*}*/
+
+}
+@media (max-width: 645px) {
+    #about-me{
+      height: 750px;
+    }
+   #study-line{
+       height: 400px;
+   }
+    .study{
+        height: 200px;
+        width: 45%;
+    }
+    .tab_menu ul{
+        width:78%;
+        margin: 0 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    #about-left{
+        width: 80%;
+        margin: 0 10%;
+    }
+    #container{
+        width: 100%;
+    }
+    #about-left img{
+        width: 100%;
+    }
+    tab_menu ul{
+        width:85%;
+        margin: 0 15%;
     }
 }
