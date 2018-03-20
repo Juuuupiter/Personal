@@ -58,7 +58,6 @@
     background: url(../img/ps/logo.png) no-repeat center center;
     background-size: contain ;
 }
-
 #nav-right  {
     width: 47%;
     height: 70px;
@@ -349,6 +348,10 @@ img{
 .hide{
     display:none
 }
+#push {
+    width: 60%;
+
+}
 #find-me{
     width: 40%;
     height: 560px;
@@ -373,11 +376,14 @@ img{
 }
 #i-like{
     width: 50%;
+    height: 600px;
     float: left;
-    background: salmon;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fbc2eb), to(#a6c1ee));
+    background:-moz-linear-gradient(top, #fbc2eb, #a6c1ee);
+    background:-o-linear-gradient(top, #fbc2eb, #a6c1ee);
 }
 #border-img{
-    width:10%;
+    width:20%;
     background:url("../img/jpeg/zhubiankuang.png") ;
     background-size: contain;
     float: left;

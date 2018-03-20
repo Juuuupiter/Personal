@@ -29,6 +29,9 @@ $("#ee").on("click",function () {
 $("#call-me").on("click",function () {
     $("html,body").animate({scrollTop:$("#contact").offset().top},1000);
 });
+$("#ff").on("click",function () {
+    $("html,body").animate({scrollTop:$("#contact").offset().top},1000);
+});
 
 
 //模拟打字
