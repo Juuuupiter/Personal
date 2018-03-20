@@ -1,21 +1,19 @@
 
 @media (max-width: 1450px) {
-    /*#about-left{*/
-        /*width: 50%;*/
-    /*}*/
     #imgs {
         width: 90%;
         margin: auto ;
     }
-    /*#about-right {*/
-        /*width: 50%;*/
-    /*}*/
     .tab_menu ul{
         width: 35%;
     }
 }
+@media (max-width: 1412px) {
+}
 @media (max-width: 1392px) {
-
+    .tab_box{
+        width: 85%;
+    }
 }
 @media (max-width:1360px)  {
     #text {
@@ -32,9 +30,6 @@
     }
 }
 @media (max-width: 1265px ) {
-    #nav-left li{
-        margin-left: 5%;
-    }
     .todo{
         height: 300px;
     }
@@ -43,6 +38,9 @@
     }
     .tab_menu ul{
         width:40%;
+    }
+    .tab_box{
+        width: 100%;
     }
 }
 @media (max-width: 1110px) {
@@ -66,6 +64,12 @@
         width:45%;
         margin: 0 35%;
     }
+    /*.project-pic{*/
+        /*margin: 0 5%;*/
+    /*}*/
+    .wrap img{
+        border-radius: 30%;
+    }
 }
 @media (max-width: 1000px) {
     #nav-left ul{
@@ -78,6 +82,11 @@
         width:50%;
         margin: 0 33%;
     }
+    .project-pic{
+        width: 25%;
+        margin: 0 4%;
+    }
+
 }
 
 @media (max-width: 925px ) {
@@ -102,6 +111,13 @@
     .tab_menu li{
         font-size: 20px;
     }
+    .project-pic{
+        width: 25%;
+        margin: 0 4%;
+    }
+    .wrap img{
+        border-radius: 20%;
+    }
 }
 @media (max-width: 770px){
     #about-me{
@@ -110,6 +126,13 @@
     .tab_menu ul{
         width:55%;
         margin: 0 28%;
+    }
+    .project-pic{
+        width: 25%;
+        margin: 0 4%;
+    }
+    .wrap img{
+        border-radius: 0;
     }
 }
 @media (max-width: 700px) {
@@ -148,9 +171,10 @@
     }
 }
 @media (max-width: 670px) {
-    /*#about-me {*/
-        /*height: 200px;*/
-    /*}*/
+    .project-pic{
+        width: 30%;
+        margin: 0 1%;
+    }
 
 }
 @media (max-width: 645px) {

@@ -35,12 +35,13 @@
     /*background: firebrick ;*/
     float: left;
 }
-#nav-left li{
+#nav-left li ,#nav-right li{
     display: block;
     float: left;
     line-height: 70px;
-    margin-left: 8%;
+    margin-left: 7%;
     font-size: 17px;
+    width: 22%;
 }
 #nav-left img{
     float: left;
@@ -300,7 +301,7 @@ img{
 #project-title{
     height: 50px;
 }
-.project-pic{
+.project-pic {
     height: 250px;
     float: left;
     width: 20%;
@@ -381,5 +382,5 @@ img{
     background-size: contain;
     float: left;
     height: 409px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
