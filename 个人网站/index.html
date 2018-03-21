@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/contain.css">
     <link rel="stylesheet" href="reply/index-reply.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -169,64 +170,82 @@
 <div id="my-project">
     <div id="cloudy"></div>
     <div class="wrap" >
-        <div class="tab_menu">
-            <ul>
-                <li class="selected">所有</li>
-                <li>仿站</li>
-                <li>移动端</li>
-                <li>小练习</li>
-            </ul>
-        </div>
-        <div class="tab_box">
-            <div>
-                <div class="project-pic">
-                    <img src="img/jpeg/starbuck.png" alt="">
-                    <p>星巴克仿站</p>
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+
+                    <img src="img/jpeg/starbuck.png" alt="First slide" style="height: 500px">
+                    <div class="project-intro">
+                        <p class="inner-p" style="top: 43%">
+                            星巴克仿站<br>
+                            响应式设计,兼容chrome、firefox等浏览器。<br>
+                            利用了jquerymobile等框架。
+                         </p>
+                    </div>
                 </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/xiamiapp.png" alt="">
-                    <p>移动端音乐APP</p>
+                <div class="item">
+                    <div class="project-intro" style="margin-left: 15%">
+                        <p class="inner-p" style="top: 32%">
+                            用Vue全家桶编写的虾米音乐移动端app。<br>
+                            可以实现基本的页面切换与返回，利用接口导入音乐 数据，添加组件等。<br>
+                            利用vue-router实现组件的切换，引用了滑动组件，添加接口进行数据传输。<br>
+                            第一次使用Vue-cli脚手架，并尝试利用nodejs实现用户登入和数据库数据存储。
+                        </p>
+                    </div>
+                    <img src="img/jpeg/xiamiapp.png" alt="Second slide" style="margin-left: 0;height: 500px">
                 </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/photo.png" alt="">
-                    <p>动态照片墙</p>
+                <div class="item">
+                    <img src="img/jpeg/zhongbiao.png" alt="Third slide" style="height: 300px">
+                    <div class="project-intro" style="margin-left: 15%;height: 100px">
+                        <p class="inner-p">Html5+Css3小案例</p>
+                    </div>
+                    <img src="img/jpeg/shaizi.png" alt="Third slide" style="margin-left: 15%;height: 300px;margin-top: 100px">
+                    <div class="project-intro" style="margin-left: 15%;height: 100px;margin-top: -100px">
+                        <p class="inner-p">模拟时钟+旋转方块</p>
+                    </div>
                 </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/zhongbiao.png" alt="">
-                    <p>css3钟表</p>
-                </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/shaizi.png" alt="">
-                    <p>旋转骰子动画</p>
-                </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/draw.png" alt="">
-                    <p>画板</p>
+                <div class="item">
+                    <img src="img/jpeg/photo.png" alt="Forth slide">
+                    <div class="project-intro" style="margin-top:136px;height: 100px">
+                        <p class="inner-p">
+                            JavaScript原生旋转照片墙
+                        </p>
+                    </div>
+                    <img src="img/jpeg/draw.png" alt="Forth slide">
+                    <div class="project-intro" style="margin-top:136px;height: 100px">
+                        <p class="inner-p">
+                           画板小练习
+                        </p>
+                    </div>
+
                 </div>
             </div>
-            <div class="hide">
-                <div class="project-pic">
-                    <img src="img/jpeg/starbuck.png" alt="">
-                </div>
-            </div>
-            <div class="hide">
-                <div class="project-pic">
-                    <img src="img/jpeg/xiamiapp.png" alt="">
-                </div>
-            </div>
-            <div class="hide">
-                <div class="project-pic">
-                    <img src="img/jpeg/photo.png" alt="">
-                </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/zhongbiao.png" alt="">
-                    <p>css3钟表</p>
-                </div>
-                <div class="project-pic">
-                    <img src="img/jpeg/shaizi.png" alt="">
-                    <p>旋转骰子动画</p>
-                </div>
-            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel"
+               data-slide="prev">&lsaquo;
+            </a>
+            <a class="carousel-control right" href="#myCarousel"
+               data-slide="next">&rsaquo;
+            </a>
+            <!-- 控制按钮 -->
+
+            <!--<div style="text-align:center;">-->
+                <!--<input type="button" class="btn start-slide" value="Start">-->
+                <!--<input type="button" class="btn pause-slide" value="Pause">-->
+                <!--<input type="button" class="btn prev-slide" value="Previous Slide">-->
+                <!--<input type="button" class="btn next-slide" value="Next Slide">-->
+                <!--<input type="button" class="btn slide-one" value="Slide 1">-->
+                <!--<input type="button" class="btn slide-two" value="Slide 2">-->
+                <!--<input type="button" class="btn slide-three" value="Slide 3">-->
+            <!--</div>-->
         </div>
     </div>
 </div>
@@ -254,6 +273,7 @@
 
 <script src="js/particles.min.js"></script>
 <script src="js/jquery-1.12.4.js "></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/cover.js"></script>
 
