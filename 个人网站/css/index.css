@@ -350,7 +350,8 @@ img{
 }
 #push {
     width: 60%;
-
+    height: 700px;
+    float: left;
 }
 #find-me{
     width: 40%;
@@ -375,7 +376,7 @@ img{
     display: none;
 }
 #i-like{
-    width: 50%;
+    width: 0;
     height: 600px;
     float: left;
     background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fbc2eb), to(#a6c1ee));

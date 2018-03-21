@@ -6,6 +6,7 @@
 var open= document.getElementById ("cover-open");
 var cover = document .getElementById ("particles-js");
 var body = document .getElementById ("body-wide");
+var n = 1;
 open.onclick = function () {
     open.style.display ="none";
     cover.style.display = "none";
@@ -263,5 +264,15 @@ $(function(){
     })
 })
 
-
+//push
+    var o = false;
+    $("#border-img").on("click",function () {
+        if(o == false){
+        $("#i-like").animate({width:"80%"});
+        o=true;
+        }else {
+            $("#i-like").animate({width:0});
+            o=false
+        }
+    });
 
