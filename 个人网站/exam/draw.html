@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: lightblue;
+        }
+        #can {
+            background: palevioletred;
+            opacity: 0.6;
+            filter:Alpha(opacity=50);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -300px;
+            margin-left: -300px;
+        }
+    </style>
+</head>
+<body>
+<canvas id="can" height="600" width="600" ></canvas>
+<script>
+    var oCan=document.getElementById("can");
+    var ctx=oCan.getContext("2d");
+    oCan.onmousedown=function (e){
+        var disX = e.clientX - oCan.offsetLeft ;
+        var disY = e.clientY - oCan.offsetTop  ;
+        ctx.beginPath();
+        ctx.moveTo (disX ,disY);
+        oCan.onmousemove=function (e){
+            var disM = e.clientX - oCan.offsetLeft ;
+            var disN = e.clientY - oCan.offsetTop ;
+            ctx.lineTo(disM ,disN);
+            ctx.strokeStyle="white";
+            ctx.stroke();
+        };
+        oCan.onmouseup =function(){
+            oCan.onmousemove = null;
+        };
+
+    };
+</script>
+</body>
+</html>

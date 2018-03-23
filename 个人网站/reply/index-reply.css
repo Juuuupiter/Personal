@@ -64,11 +64,11 @@
         width:45%;
         margin: 0 35%;
     }
-    /*.project-pic{*/
-        /*margin: 0 5%;*/
-    /*}*/
-    .wrap img{
-        border-radius: 30%;
+    .project-intro{
+        display: none;
+    }
+    #what-to-do .todo p{
+        font-size: 16px;
     }
 }
 @media (max-width: 1000px) {
@@ -86,6 +86,7 @@
         width: 25%;
         margin: 0 4%;
     }
+
 
 }
 
@@ -115,9 +116,9 @@
         width: 25%;
         margin: 0 4%;
     }
-    .wrap img{
-        border-radius: 20%;
-    }
+    /*.wrap img{*/
+        /*border-radius: 20%;*/
+    /*}*/
 }
 @media (max-width: 770px){
     #about-me{

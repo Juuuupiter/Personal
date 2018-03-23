@@ -243,7 +243,7 @@ fn5;
 $("#wechat").on("mouseover",function() {
      $("#chat-pic").show('fast')
 });
-$("#wechat").on("mouseleave",function() {
+$("#find-me-top").on("click",function() {
     $("#chat-pic").hide('fast')
 });
 
@@ -267,7 +267,7 @@ $("#wechat").on("mouseleave",function() {
 // 滑动轮播图
 $(function(){
     $("#myCarousel").carousel({
-        interval:5000
+        interval:3000
     });
 });
 
@@ -276,6 +276,8 @@ $(function(){
     $("#border-img").on("click",function () {
         if(o == false){
         $("#i-like").animate({width:"80%"});
+        $("#border-img").animate({width:"20%"});
+        $("#img-text").css('display','none');
         o=true;
         }else {
             $("#i-like").animate({width:0});

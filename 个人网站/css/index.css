@@ -231,8 +231,8 @@
 #footer p{
     /*width: 100px;*/
     /*height: 100px;*/
-    margin-top: 25%;
-    font-size: 20px;
+    margin-top: 20%;
+    font-size: 17px;
     text-align: center;
 }
 #goTop {
@@ -399,8 +399,8 @@ img{
     font-size: 20px;
 }
 #find-me-top img{
-    width:50%;
-    height: 350px;
+    width:44%;
+    height: 306px;
     display: none;
 }
 #i-like{
@@ -411,9 +411,18 @@ img{
     background:-moz-linear-gradient(top, #fbc2eb, #a6c1ee);
     background:-o-linear-gradient(top, #fbc2eb, #a6c1ee);
 }
+#i-like p{
+    overflow: hidden;
+}
+#little-story{
+    overflow: hidden;
+}
+#little-story img{
+    height:580px;
+}
 #border-img{
-    width:20%;
-    background:url("../img/jpeg/zhubiankuang.png") ;
+    width:50%;
+    background:url("../img/jpeg/zhubiankuang.png");
     background-size: contain;
     float: left;
     height: 409px;
