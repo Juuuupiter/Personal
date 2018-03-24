@@ -407,9 +407,9 @@ img{
     width: 0;
     height: 600px;
     float: left;
-    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fbc2eb), to(#a6c1ee));
-    background:-moz-linear-gradient(top, #fbc2eb, #a6c1ee);
-    background:-o-linear-gradient(top, #fbc2eb, #a6c1ee);
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#eea2a2), to(#7ac5d8));
+    background:-moz-linear-gradient(top, #eea2a2,#7ac5d8);
+    background:-o-linear-gradient(top, #eea2a2,#7ac5d8);
 }
 #i-like p{
     overflow: hidden;

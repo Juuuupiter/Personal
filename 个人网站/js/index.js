@@ -281,6 +281,8 @@ $(function(){
         o=true;
         }else {
             $("#i-like").animate({width:0});
+            $("#border-img").animate({width:"50%"});
+            $("#img-text").css('display','block');
             o=false
         }
     });
