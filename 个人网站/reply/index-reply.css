@@ -8,8 +8,7 @@
         width: 35%;
     }
 }
-@media (max-width: 1412px) {
-}
+
 @media (max-width: 1392px) {
     .tab_box{
         width: 85%;
@@ -28,6 +27,12 @@
     .tab_menu ul{
         width:35%;
     }
+    .wrap img{
+        margin-left: 0;
+    }
+    #vue-pro{
+        display: none;
+    }
 }
 @media (max-width: 1265px ) {
     .todo{
@@ -43,7 +48,15 @@
         width: 100%;
     }
 }
-@media (max-width: 1110px) {
+@media (max-width: 1200px ){
+    .wrap img{
+        margin-left: 0;
+    }
+    #shaizi{
+        margin-top: 0;
+    }
+}
+    @media (max-width: 1110px) {
     #text {
         width: 30%;
     }
@@ -72,10 +85,17 @@
     }
 }
 @media (max-width: 1000px) {
+
     #nav-left ul{
         margin-left: 15px;
     }
     #nav-left li{
+        font-size: 15px;
+    }
+    #nav-right ul{
+        margin-left: 15px;
+    }
+    #nav-right li{
         font-size: 15px;
     }
     .tab_menu ul{
@@ -91,6 +111,18 @@
 }
 
 @media (max-width: 925px ) {
+    #nav-left ul{
+        margin-left: 13px;
+    }
+    #nav-left li{
+        font-size: 13px;
+    }
+    #nav-right ul{
+        margin-left: 13px;
+    }
+    #nav-right li{
+        font-size: 13px;
+    }
     #text {
         display: none;
     }
@@ -98,12 +130,18 @@
         width: 100%;
         float: left;
     }
+    #about-me{
+        height: 1300px;
+    }
+
     button {
         margin-top: 85px ;
         margin-left: -70px;
     }
     #about-right {
-        display: none;
+        width:70%;
+        height: 600px;
+        margin: 0 15%;
     }
     #about-left {
         width:70%;
@@ -116,13 +154,21 @@
         width: 25%;
         margin: 0 4%;
     }
-    /*.wrap img{*/
-        /*border-radius: 20%;*/
-    /*}*/
+}
+@media (max-width: 850px){
+    .todo{
+        width: 33%;
+    }
+    .todo:nth-child(2n){
+        display: none;
+    }
+    .todo:nth-child(9){
+        float: right;
+    }
 }
 @media (max-width: 770px){
     #about-me{
-        height:550px ;
+        height:1200px ;
     }
     .tab_menu ul{
         width:55%;
@@ -137,22 +183,32 @@
     }
 }
 @media (max-width: 700px) {
+    #nav{
+        width: 90%;
+        margin: 20px 5%;
+    }
     #nav-middle {
         height: 70px;
         float: left;
         width: 15%;
     }
-    #nav-left {
-        width: 42.5%;
+    #nav-right{
+        width:35%;
     }
-    #nav-left li {
-        display: none;
+    #nav-left{
+        width:40%;
     }
-    #nav-left img{
-        display: block;
-        width: 23%;
-        height: 30px;
-        margin-top: 13px;
+    #nav-left ul{
+        margin-left: 13px;
+    }
+    #nav-left li{
+        font-size: 13px;
+    }
+    #nav-right ul{
+        margin-left: 13px;
+    }
+    #nav-right li{
+        font-size: 13px;
     }
     #about-left{
         height: 350px;
@@ -176,11 +232,14 @@
         width: 30%;
         margin: 0 1%;
     }
+    #about-right button{
+        margin: 0 auto;
+    }
 
 }
 @media (max-width: 645px) {
     #about-me{
-      height: 750px;
+      height: 1400px;
     }
    #study-line{
        height: 400px;
@@ -209,5 +268,8 @@
     tab_menu ul{
         width:85%;
         margin: 0 15%;
+    }
+    #about-right{
+        height: unset;
     }
 }

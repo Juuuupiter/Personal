@@ -231,7 +231,7 @@
 #footer p{
     /*width: 100px;*/
     /*height: 100px;*/
-    margin-top: 20%;
+    margin-top: 55px;
     font-size: 17px;
     text-align: center;
 }
@@ -318,6 +318,12 @@ img{
     display: table;
     position:relative;
 }
+.intro-wrap{
+    width: 70%;
+    /*background: salmon ;*/
+    height: 580px;
+    margin: 0 auto;
+}
 .inner-p{
     color: black;
     display: table-cell;
@@ -325,7 +331,9 @@ img{
     top:50%;
     margin: 0 15%;
 }
-
+#shaizi{
+    margin-top: 100px;
+}
 .box-box{
     float: left;
     margin-left: 10%;
@@ -335,7 +343,8 @@ img{
 .wrap img{
     height: 230px;
     float: left;
-    margin-left: 15%;
+    margin-left: 7%;
+    /*width: 50%;*/
 }
 #myCarousel .carousel-inner{
     height: 580px;
